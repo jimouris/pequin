@@ -11,7 +11,7 @@ struct Out {
 };
 
 /*
-  Search a sorted array and return the minimum value.
+  Search an array and return the minimum value.
 */
 void compute(struct In* input, struct Out* output){
   uint32_t i, min;
