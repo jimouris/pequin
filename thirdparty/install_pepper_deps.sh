@@ -11,11 +11,11 @@ TAR="tar xvzf"
 
 # papi
 echo "installing PAPI"
-$TAR papi-5.4.1.tar.gz
-cd papi-5.4.1/src
-./configure --prefix=$DEPS_DIR
+# git clone https://bitbucket.org/icl/papi.git
+cd papi/src
+./configure
 make
-make install
+sudo make install
 cd $UP
 
 # libconfig
